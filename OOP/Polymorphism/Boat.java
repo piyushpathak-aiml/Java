@@ -16,7 +16,7 @@ public class Boat implements Vehicle {
         } */
 
         // when vehicle is interface
-        @Overrride
+        @Override
         public void go() {
             System.out.println("You sail the boat");
         }

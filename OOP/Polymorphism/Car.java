@@ -16,7 +16,7 @@ public class Car implements Vehicle {
         } */
 
         // when vehicle is interface
-        @Overrride
+        @Override
         public void go() {
             System.out.println("You drive the car");
         }

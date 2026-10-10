@@ -8,7 +8,7 @@ public class Polymorphism {
         // objects can be treated as objects of a common superclass.
 
         // object
-        Car car = new Car():
+        Car car = new Car();
         Bike bike = new Bike();
         Boat boat = new Boat();
 
@@ -24,7 +24,7 @@ public class Polymorphism {
 
         // all of these are invalid , because car and bike don't identify as boats and vice versa
 
-        Vehicle vehicles = {car, bike, boat};
+        Vehicle[] vehicles = {car, bike, boat};
 
         // method calling
         for (Vehicle vehicle : vehicles) {
