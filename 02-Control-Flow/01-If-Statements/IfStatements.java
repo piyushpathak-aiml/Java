@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class IfElse {
+public class IfStatements {
     public static void main (String[] args) {
 
         // If statement = Performs a block of code when the given condition is true. 

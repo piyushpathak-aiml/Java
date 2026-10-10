@@ -1,4 +1,4 @@
-public class NestedIfElse {
+public class NestedIfStatements {
     public static void main(String[] args) {
         
         // Variable declaration

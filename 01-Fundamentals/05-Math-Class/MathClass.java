@@ -1,4 +1,4 @@
-public class MathDemo {
+public class MathClass {
     public static void main(String[] args) {
         
         // Some math values in the Math class.
