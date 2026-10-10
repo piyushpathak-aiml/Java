@@ -18,7 +18,7 @@ public class Inheritance {
         System.out.println(cat.lives);
         System.out.println("******************************");
 
-        // calling methodss
+        // calling methods
         dog.eat();
         cat.eat();
         dog.speak();

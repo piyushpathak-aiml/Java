@@ -2,10 +2,7 @@
 public class Constructors {
     public static void main(String[] args) {
 
-        // scanner object
-        
-
-        // variable declaration
+        // object
         Student student1 = new Student("Jack", 30, 3.2);
         Student student2 = new Student("Michael", 34, 1.5);
 

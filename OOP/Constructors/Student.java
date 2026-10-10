@@ -20,7 +20,7 @@ public class Student {
    }
 
     // methods
-   void study() {
+    void study() {
 
     // the keyword "this" is a keyword that refers to the current object.
     // for example if student2 is calling the method
