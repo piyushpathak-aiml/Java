@@ -23,6 +23,6 @@ public class MethodOverriding {
         // we can see that the dog,cat and fish is running, but fish can't run , it swims.
         // so we do method overriding in fish class
 
-
+        
     }
 }
