@@ -16,20 +16,24 @@ public class MusicPlayer {
         // How to play audio with Java (.av, .au, .aiff)
 
         // variable declaration
+        // we can use the absolute filepath but the relative path is simpler
         String filepath = "BreakingBad.wav";
         File file = new File(filepath);
 
-        // try
+        // try with resources
         try(Scanner scanner = new Scanner(System.in);
         AudioInputStream audioStream = AudioSystem.getAudioInputStream(file)) {
 
+            // clip object
             Clip clip = AudioSystem.getClip();
             clip.open(audioStream);
 
+            // variable declaration
             String response = "";
 
             System.out.println("******************************");
 
+            // while loop
             while(!response.equals("Q")) {
                 System.out.println("P = Play");
                 System.out.println("S = Stop");
@@ -39,6 +43,7 @@ public class MusicPlayer {
 
                 response = scanner.next().toUpperCase();
 
+                // enhanced switch
                 switch(response) {
                 case "P" -> clip.start();
                 case "S" -> clip.stop();
