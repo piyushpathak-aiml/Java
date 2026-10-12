@@ -24,7 +24,7 @@ public class WriteFiles {
         // this was the way to do so, now let's do the same thing with a fileppath specific file and file not found exception
 
         // in a better way, let's just make a string of filepath
-        String filePath = "D:\\Piyush\\Programming\\Java\\07-Exceptions-And-File-IO\\02-Write-Files\\test.txt";
+        String filePath = "D:\\Piyush\\Programming\\Java\\07-Exceptions-And-File-IO\\02-Write-Files\\Test.txt";
 
         // below we write a multi-line string using triple sets of double quotes
         String textContent = """
